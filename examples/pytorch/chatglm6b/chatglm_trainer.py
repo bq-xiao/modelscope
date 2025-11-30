@@ -2,7 +2,7 @@ from typing import Any, Dict, Union
 
 import numpy as np
 import torch
-from transformers.deepspeed import is_deepspeed_zero3_enabled
+from transformers.integrations.deepspeed import is_deepspeed_zero3_enabled
 
 from modelscope import EpochBasedTrainer, get_logger
 
